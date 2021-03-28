@@ -1,6 +1,6 @@
 # DEEP_IMPLEMENTS
 This Project is where I Implement popular Deep Neural Network architecture from scratch using pytorch. 
-This project is largely designed based on pytorch library such as learning the classification architectures which are given on torchvision library.
+This project is largely designed based on pytorch libraries such as learning the classification architectures which are given on torchvision library only.
 
 ## Contents
  - Image data
@@ -19,29 +19,32 @@ This project is largely designed based on pytorch library such as learning the c
 ## Image Data
 Image data based networks. CNN based DNN architectures.
 
-### Alexnet
+### Alexnet:
 
-### VGG16
+### VGG16:
 
-### RESNET
+### RESNET:
 
-### Inception
+### Inception:
 
 ## Sequence Data
 Sequence data types.
 
-### RNN, LSTM, GRU n all
+### RNN, LSTM, GRU n all:
 
-### Attention
+### Attention:
 
-### Transformers
+### Transformers:
 
 
-## Requireents
+## Requirements
 - conda environment create  
-  `conda create -n ml python==3.8`
+  `conda create -n dl python==3.8`
 
-- Update conda env using env_ml.yml  
-  `conda activate ml`  
-  `conda env update -f env_ml.yml`
+- Update conda env using env_dl.yml  
+  `conda activate dl`  
+  `conda env update -f env_dl.yml`
+
+## Local install
+- setuptools
   
