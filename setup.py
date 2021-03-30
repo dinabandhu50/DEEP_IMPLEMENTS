@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 
 # Package meta-data.
-NAME = 'Deep Learning Implementations'
+NAME = 'DeepImple'
 DESCRIPTION = 'Deep Learing Implementation using pytorch'
 URL = 'https://github.com/dinabandhu50/DEEP_IMPLEMENTS'
 EMAIL = 'beheradinabandhu50@gmail.com'
