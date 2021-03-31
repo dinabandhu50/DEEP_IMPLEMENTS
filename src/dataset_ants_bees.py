@@ -4,6 +4,7 @@ import torchvision
 
 from torchvision import datasets, transforms
 
+from src import config
 
 data_transforms = {
     'train': transforms.Compose([
@@ -20,25 +21,25 @@ data_transforms = {
     ]),
 }
 
-data_dir = 'data/hymenoptera_data'
+
+data_dir = os.path.join(config.PROJECT_ROOT_DIR,'data','hymenoptera_data','')
 # building dataset
 train_dataset = datasets.ImageFolder(
-    os.path.join(data_dir,'train',
-    data_transforms['train']))
-test_dataset = datasets.ImageFolder(
-    os.path.join(data_dir,'test',
-    data_transforms['test']))
+    os.path.join(data_dir,'train',''),
+    data_transforms['train'])
+val_dataset = datasets.ImageFolder(
+    os.path.join(data_dir,'val',''), 
+    data_transforms['val'])
 
 # building dataloader
 train_loader = torch.utils.data.DataLoader(
     train_dataset,
     batch_size=4,
     shuffle=True)
-test_loader = torch.utils.data.DataLoader(
-    test_dataset,
+val_loader = torch.utils.data.DataLoader(
+    val_dataset,
     batch_size=4,
     shuffle=True)
-
 
 
 if __name__ == '__main__':
