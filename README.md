@@ -1,6 +1,12 @@
 # DEEP_IMPLEMENTS
-This Project is where I Implement popular Deep Neural Network architecture from scratch using pytorch. 
-This project is largely designed based on pytorch libraries such as learning the classification architectures which are given on torchvision library only.
+This Project is where I am learning the following problem:  
+- >Given a pytorch DNN architecture, train it to obtain best result for the task.
+
+I will be using pytorch to do all the implementation. After completation of this project I will be learning  
+- Transfer Learning
+- Model Training
+- Optua: to obtain best hyper-parameters
+- Pytorch model Ensembling
 
 ## Contents
 - IMAGE DATA
@@ -52,32 +58,34 @@ MACHINE (RBM)
   - Review on DRL
   - Q- Learning
 - Applications of DRL
-  - 
+
 
 ## How to use it
  There are two main folders `src` and `notebooks`. The `notebooks` has jupyter notebooks of implementations and the `src` as python files.  
- - I have implemented first on notebooks then on python files
+ - The exploratory data analysis would be in jupyter notebook.
+ - The actual python codes would be in src folder.
+
 ## Image Data
 Image data based networks. CNN based DNN architectures.
 
-### LeeNet:
+#### LeeNet:
 
-### Alexnet:
+#### Alexnet:
 
-### VGG16:
+#### VGG16:
 
-### RESNET:
+#### RESNET:
 
-### Inception:
+#### Inception:
 
 ## Sequence Data
 Sequence data types.
 
-### RNN, LSTM, GRU n all:
+#### RNN, LSTM, GRU n all:
 
-### Attention:
+#### Attention:
 
-### Transformers:
+#### Transformers:
 
 
 ## Requirements

@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
     dataset_sizes = {
     'train':len(train_dataset),
-    'test':len(test_dataset)
+    'test':len(val_dataset)
     }
 
     class_names = train_dataset.classes
