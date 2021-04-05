@@ -3,8 +3,10 @@ This Project is where I am learning the following problem:
 - >Given a pytorch DNN architecture, train it to obtain best result for the task.
 
 I will be using pytorch to do all the implementation. After completation of this project I will be learning  
-- Transfer Learning
-- Model Training
+- Transfer learning
+- GPU and TPU training
+- Data augmentation
+- LR Scheduler, Optimizerand Loss functions
 - Optua: to obtain best hyper-parameters
 - Pytorch model Ensembling
 
